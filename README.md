@@ -13,9 +13,10 @@ The NCFE Level 2 Certificate in Data focuses on the essential skills required to
 * Legal and ethical considerations (GDPR, data security).
 
 ## 🛠️ Tools & Technologies
-* **Excel/Google Sheets:** Intermediate functions, Pivot Tables, and data cleaning.
-* **Data Visualisation:** [e.g., Tableau, Power BI, or Excel Charts]
-* **Documentation:** Markdown.
+* **Excel/Google Sheets:** Intermediate functions (VLOOKUP/XLOOKUP), Pivot Tables, and data cleaning.
+* **SQL:** Querying relational databases and data manipulation.
+* **Power BI & Tableau:** Creating interactive dashboards and visual storytelling.
+* **Documentation:** Markdown and Git for version control.
 * *More tools to be added as the course progresses.*
 
 ---
@@ -23,6 +24,12 @@ The NCFE Level 2 Certificate in Data focuses on the essential skills required to
 ## 📂 Project Gallery
 
 This section is updated as I complete each unit and assignment.
+
+### 📝 Project 0: Professional SWOT Analysis:
+* **Topic:** Self-assessment and career mapping within the data industry.
+* **Key Skills:** Critical thinking, professional planning, and documentation.
+* 👉 [View my Professional SWOT Analysis](./SWOT-Analysis.md)
+
 
 ### 📝 Assignment 1: 
 * **Topic:** 
@@ -34,12 +41,9 @@ This section is updated as I complete each unit and assignment.
 
 ---
 
-👉 [View my Professional SWOT Analysis](./SWOT-Analysis.md)
-
----
-
 ## 📈 Learning Objectives & Progress
-- [ ] Unit 1: Introduction to data analysis.
+_Tracking my journey through the NCFE units:_
+- [X] Unit 1: Introduction to data analysis. _(In Progress)_
 - [ ] Unit 2: Data compliance and ethics.
 - [ ] Unit 3: Collecting, processing and preparing data.
 - [ ] Unit 4: Data validation and quality.
