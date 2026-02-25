@@ -4,6 +4,15 @@ Welcome to my Data Analysis portfolio. This repository serves as a central hub f
 
 The goal of this repository is to document my journey from data fundamentals to professional analysis, showcasing my ability to handle, process, and visualise data effectively.
 
+## 🗺️ Navigation
+* [Course Overview](#-course-overview)
+* [Tools & Technologies](#️-tools--technologies)
+* [Project Gallery](#-project-gallery)
+* [Case Studies](#-case-studies)
+* [Deployment Guide](#-deployment-guide)
+* [Learning Progress](#-learning-objectives--progress)
+* [Contact Me](#-contact--connect)
+
 ## 📌 Course Overview
 The NCFE Level 2 Certificate in Data focuses on the essential skills required to work in a data-driven environment. Key areas of study include:
 * Understanding the data life cycle.
@@ -14,9 +23,11 @@ The NCFE Level 2 Certificate in Data focuses on the essential skills required to
 
 ## 🛠️ Tools & Technologies
 * **Excel/Google Sheets:** Intermediate functions (VLOOKUP/XLOOKUP), Pivot Tables, and data cleaning.
-* **SQL:** Querying relational databases and data manipulation.
+* **SQL:** Relational database management (MySQL/MariaDB), complex querying (DQL/DML), and data precision management.
 * **Power BI & Tableau:** Creating interactive dashboards and visual storytelling.
 * **Documentation:** Markdown and Git for version control.
+* **Cloud & DevOps:** Docker container orchestration, Nginx Proxy Manager (Layer 4/7 routing), and VPS management (RackNerd/Linux).
+* **Networking & Security:** Implementing UFW firewalls, Cloudflare DNS configurations, and secure TCP streaming.
 * *More tools to be added as the course progresses.*
 
 ---
@@ -31,6 +42,12 @@ This section is updated as I complete each unit and assignment.
 
   👉 [View my Professional SWOT Analysis](./SWOT-Analysis.md)
 
+### 📝 Project 1: Database Infrastructure & Schema Design
+* **Topic:** Building a relational environment for NCFE coursework.
+* **Key Skills:** SQL DDL (Table Creation), DML (Data Insertion), and Metadata Management.
+* 👉 [Master Lab Setup](./scripts/lab-setup.sql) — *The core script that builds the tables and inserts the gram measurements.*
+* 👉 [Data Dictionary](./scripts/data-dictionary.sql) — *Professional documentation defining the metrics and standards for the lab.*
+
 
 ### 📝 Assignment 1: 
 * **Topic:** 
@@ -39,6 +56,21 @@ This section is updated as I complete each unit and assignment.
 * **View Project:** 
 
 > *[Note: More assignments will be added here upon completion]*
+
+---
+
+## 📁 Case Studies
+
+This section documents real-world technical challenges encountered during the development of this lab, detailing the systematic troubleshooting, architectural decisions, and security protocols implemented to resolve them.
+
+* [Case Study: Network Resolution](./lab-reports/01-network-conflict-resolution.md)
+
+---
+
+## 🚀 Deployment Guide
+For full instructions on how to replicate my projects.
+
+* **[NCFE Data Lab: Infrastructure & Environment Setup Guide](./docs/Environment-setup-guide.md)**.
 
 ---
 

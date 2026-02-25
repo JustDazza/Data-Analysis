@@ -1,0 +1,24 @@
+# 🚀 NCFE Data Lab: Infrastructure & Environment Setup Guide
+
+This guide provides the necessary steps to replicate the data lab environment and connect to the MariaDB instance for analysis and coursework.
+
+---
+
+## 🏗️ Database Initialisation
+Follow these steps in order to build the schema and populate the initial data:
+
+1. **Run Master Setup**: Execute [`/scripts/lab-setup.sql`](../scripts/lab-setup.sql). 
+   * This builds the `inventory_measurements` table and seeds the raw gram data (**452.7g** and **323.8g**).
+2. **Apply Metadata**: Execute [`/scripts/data-dictionary.sql`](../scripts/data-dictionary.sql).
+   * This establishes the **Data Dictionary** to ensure high-quality standards for all future entries.
+
+## 🔌 Connection Details
+To access the database via **HeidiSQL** or other GUI tools:
+
+* **Hostname:** `sql.justdazza.com`
+* **Port:** `3306`
+* **Network Type:** TCP/IP (MySQL/MariaDB)
+
+## 🛡️ Security & Access Control
+* **Firewall**: Access is restricted via **UFW** on the origin server.
+* **Routing**: Traffic is managed through an **Nginx Proxy Manager Stream** to isolate the database from direct web exposure.
