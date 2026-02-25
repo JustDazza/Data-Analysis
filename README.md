@@ -28,7 +28,8 @@ This section is updated as I complete each unit and assignment.
 ### 📝 Project 0: Professional SWOT Analysis:
 * **Topic:** Self-assessment and career mapping within the data industry.
 * **Key Skills:** Critical thinking, professional planning, and documentation.
-* 👉 [View my Professional SWOT Analysis](./SWOT-Analysis.md)
+
+  👉 [View my Professional SWOT Analysis](./SWOT-Analysis.md)
 
 
 ### 📝 Assignment 1: 
