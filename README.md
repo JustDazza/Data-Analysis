@@ -34,6 +34,10 @@ This section is updated as I complete each unit and assignment.
 
 ---
 
+👉 [View my Professional SWOT Analysis](./SWOT-Analysis.md)
+
+---
+
 ## 📈 Learning Objectives & Progress
 - [ ] Unit 1: Introduction to data analysis.
 - [ ] Unit 2: Data compliance and ethics.
