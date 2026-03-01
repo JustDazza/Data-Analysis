@@ -76,7 +76,7 @@ For full instructions on how to replicate my projects.
 
 ## 📈 Learning Objectives & Progress
 _Tracking my journey through the NCFE units:_
-- [X] Unit 1: Introduction to data analysis. _(In Progress)_
+- [X] **Unit 1: Introduction to Data Analysis** 👉 [View Unit 01 Theory & Case Study Foundations](./docs/unit-01-theory.md) _(In Progress)_
 - [ ] Unit 2: Data compliance and ethics.
 - [ ] Unit 3: Collecting, processing and preparing data.
 - [ ] Unit 4: Data validation and quality.
