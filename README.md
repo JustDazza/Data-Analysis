@@ -48,6 +48,12 @@ This section is updated as I complete each unit and assignment.
 * 👉 [Master Lab Setup](./scripts/lab-setup.sql) — *The core script that builds the tables and inserts the gram measurements.*
 * 👉 [Data Dictionary](./scripts/data-dictionary.sql) — *Professional documentation defining the metrics and standards for the lab.*
 
+### ☕ Project 2: Smart Coffee Shop — Relational Data Warehouse
+* **Topic:** End-to-end analysis of a 9-table retail database (approx. 50,000 transactions).
+* **Key Skills:** Triple Joins, Diagnostic Analytics, and Prescriptive Inventory Management.
+* 👉 [View Full Project Report](./lab-reports/Smart-Coffee-Shop-Analysis/) — *Including the 'high-wastes analysis and 300%+ performance insights.*
+* 👉 [SQL Scripts Folder](./lab-reports/Smart-Coffee-Shop-Analysis/scripts/) — *Cleaned DDL, DML, and Gap Analysis queries.*
+
 
 ### 📝 Assignment 1: 
 * **Topic:** 
@@ -64,6 +70,7 @@ This section is updated as I complete each unit and assignment.
 This section documents real-world technical challenges encountered during the development of this lab, detailing the systematic troubleshooting, architectural decisions, and security protocols implemented to resolve them.
 
 * [Case Study: Network Resolution](./lab-reports/01-network-conflict-resolution.md)
+* [Case Study: SQL Reserved Keywords & Date Normalisation](./lab-reports/Smart-Coffee-Shop-Analysis/README.md#key-technical-challenges--solutions)
 
 ---
 
@@ -76,11 +83,16 @@ For full instructions on how to replicate my projects.
 
 ## 📈 Learning Objectives & Progress
 _Tracking my journey through the NCFE units:_
-- [X] **Unit 1: Introduction to Data Analysis** 👉 [View Unit 01 Theory & Case Study Foundations](./docs/unit-01-theory.md) _(In Progress)_
-- [ ] Unit 2: Data compliance and ethics.
+- [X] **Unit 1: Introduction to Data Analysis** 👉 [View Unit 01 Theory & Case Study Foundations](./docs/unit-01-theory.md)
+- [/] **Unit 2: Data compliance and ethics** - 👉 [View Unit 02 Theory & Legislation](./docs/unit-02-theory.md) _(In Progress)_
+  - 👉 [View Practical GDPR Implementation](./lab-reports/Smart-Coffee-Shop-Analysis/README.md#-ethics--data-privacy-lo-28)
 - [ ] Unit 3: Collecting, processing and preparing data.
 - [ ] Unit 4: Data validation and quality.
 - [ ] Unit 5: Communicating and presenting data.
 
 ## 🤝 Contact & Connect
 If you have any questions about my work or the projects within this repo, feel free to reach out!
+
+---
+*Last Updated: March 2026*
+---

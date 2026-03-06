@@ -24,33 +24,59 @@ The DIKW pyramid represents the structural and functional relationships between 
 
 ---
 
-## 📊 2. Qualitative vs. Quantitative Data
-Understanding the difference between numerical and descriptive data is essential for effective analysis.
+## ⚙️ 2. Key Components of Data Analysis
+According to the curriculum, data analysis is a cyclical process consisting of six integrated components that ensure data is handled correctly from start to finish.
+
+
+1. **Data Collection**: Gathering relevant and accurate data from various sources (e.g., smart sensors, sales logs, or customer feedback).
+2. **Data Cleaning**: Identifying and removing inconsistencies, duplicates, or errors to ensure the data is reliable.
+3. **Data Organisation**: Structuring the cleaned data into a format ready for analysis, such as a database table or a spreadsheet.
+4. **Data Interpretation**: Examining the organised data to understand specific trends, patterns, and relationships.
+5. **Data Visualisation**: Presenting findings through visual aids like charts and graphs to make complex insights easier to digest.
+6. **Results and Communication**: Delivering the final, actionable insights to stakeholders to guide business strategy and decision-making.
+
+
+**Coffee Shop Example**: 
+We **collect** bean weights, **clean** the sensor errors, **organise** them by date, **interpret** that waste is rising, **visualise** this on a dashboard, and **communicate** to the manager that we need to recalibrate the grinder.
+
+---
+
+## 📊 3. Qualitative vs. Quantitative Data
+Understanding the difference between numerical and descriptive data is essential for choosing the correct analysis method.
 
 ### **Quantitative Data (Numerical)**
-Data that can be measured or counted.
-* **Discrete**: Whole numbers (e.g., **42** Flat Whites sold today).
-* **Continuous**: Precise measurements (e.g., Milk temperature at **65.5°C** or bean weight at **323.8g**).
+Data that can be measured or counted. It is highly structured and used for **Statistical Analysis**.
+* **Focus**: Answers "How much?", "How many?", or "How often?"
+* **Sub-types**:
+    * **Discrete**: Countable whole numbers (e.g., **42** Flat Whites sold today).
+    * **Continuous**: Precise measurements on a scale (e.g., Milk temperature at **65.5°C** or bean weight at **323.8g**).
+* **Coffee Shop Analysis**: Calculating the average transaction value or identifying the busiest hour of the day.
+
+
 
 ### **Qualitative Data (Descriptive)**
-Descriptive data that provides "quality" insights.
-* **Examples**: Roast levels (Light, Medium, Dark) or customer feedback such as "The espresso had a nutty aftertaste".
+Descriptive data that provides "quality" insights. It is often unstructured and requires **Thematic Analysis** (identifying recurring patterns or topics).
+* **Focus**: Answers "Why?" or "How?" to provide context to the numbers.
+* **Examples**: 
+    * **Roast levels**: Light, Medium, Dark.
+    * **Customer Feedback**: "The espresso had a nutty aftertaste" or "The seating area feels a bit cramped."
+* **Coffee Shop Analysis**: Categorising feedback forms to see if a recurring theme (e.g., "slow service") explains a drop in quantitative sales figures.
 
 ---
 
-## 📈 3. The Four Types of Data Analytics
-Businesses use these types to discover information, identify patterns, and forecast trends.
+## 📈 4. The Four Types of Data Analytics
+Data analytics is categorised into four types that move from understanding the past to optimising the future. As the complexity of the analysis increases, so does the strategic value it provides to the business.
 
-| Type | Question | Coffee Shop Application |
-| :--- | :--- | :--- |
-| **Descriptive** | What happened? | Calculating total daily revenue from espresso sales. |
-| **Diagnostic** | Why did it happen? | Investigating why oat milk sales dropped last Tuesday. |
-| **Predictive** | What will happen? | Forecasting next week's bean order based on historical trends. |
-| **Prescriptive**| How can we make it happen? | Recommending a "Happy Hour" discount to increase foot traffic. |
+| Type | Definition | Question | Coffee Shop Application |
+| :--- | :--- | :--- | :--- |
+| **Descriptive** | Summarising historical data to identify trends and patterns. | *What happened?* | Calculating that the average bean waste last week was **452.7g**. |
+| **Diagnostic** | Examining data to find the root cause of a specific event or trend. | *Why did it happen?* | Identifying that a **10%** drop in sales was due to a broken espresso machine. |
+| **Predictive** | Using historical patterns and models to forecast future outcomes. | *What will likely happen?* | Estimating that next Thursday will require **18kg** of beans based on past footfall. |
+| **Prescriptive** | Recommending specific actions or automated responses to achieve a goal. | *How can we make it happen?* | Automatically triggering a "2-for-1" pastry alert on the app during slow Tuesday afternoons. |
 
 ---
 
-## 📏 4. Measuring Data & Big Data
+## 📏 5. Measuring Data & Big Data
 Digital data is measured in a binary hierarchy (base-2), where each level increases by a factor of **1,024**.
 
 | Unit | Size | Real-World Context |
@@ -78,31 +104,13 @@ To understand large-scale datasets, we define them using the **Netflix Recommend
 * **Veracity (Quality):** The system must "clean" data to ensure accuracy—for example, ignoring a movie that played while a user was asleep so it doesn't skew future recommendations.
 * **Value (Insight):** The ultimate goal is **customer retention**. Accurate recommendations drive 80% of content watched, keeping users subscribed.
 
-
 ---
 
-## ⚖️ 5. Ethical Data Analysis
-Analysis must be conducted ethically, considering both moral and legal (GDPR/Data Protection Act 2018) points of view.
-* **Legal Compliance**: Ensuring customer loyalty data is stored securely.
-* **Best Practice**: **Anonymising** customer names in sales reports to ensure privacy while maintaining analytical value.
+## ⚖️ 6. Ethical Data Analysis
+Analysis must be conducted ethically to maintain public trust and comply with legal frameworks like **GDPR** and the **Data Protection Act 2018**.
 
----
-
-## ⚙️ 6. The Four Stages of Data Analysis
-Before data can be used to make decisions, it must go through a structured lifecycle. This ensures that the final insights are accurate and actionable.
-
-### **1. Inspecting**
-The initial review of the raw data to understand its structure and identify any obvious patterns or glaring errors.
-* **Coffee Shop Example**: Reviewing the CSV file from the smart grinder to ensure all timestamps and weights (e.g., **323.8g**) have been recorded correctly.
-
-### **2. Cleansing**
-The process of fixing or removing "dirty data," such as duplicates, missing values, or outliers that could skew results.
-* **Coffee Shop Example**: Removing a weight entry of "0.0g" that occurred when a bag was accidentally bumped, as this would falsely lower the daily average.
-
-### **3. Transforming**
-Converting the cleaned data into a format that is easier to analyse, such as shifting data from a raw JSON file into a structured summary table or a graph.
-* **Coffee Shop Example**: Converting daily bean usage into a weekly line graph to see which days have the highest demand.
-
-### **4. Modelling**
-Applying statistical methods or algorithms to the data to identify specific trends or predict future outcomes.
-* **Coffee Shop Example**: Using historical sales data to create a "Predictive Model" that automatically suggests a bean order for next Monday.
+* **Informed Consent**: Ensuring users are aware of data collection through clear privacy notices.
+* **Anonymisation & Pseudonymisation**: Removing or masking personally identifiable information (PII) so individuals cannot be identified from the dataset.
+* **Data Minimisation**: Limiting collection to only the data strictly necessary for the specific analysis task.
+* **Bias Mitigation**: Regularly auditing models to ensure they do not produce discriminatory outcomes based on flawed historical data.
+* **Smart Coffee Shop Application**: If implementing a loyalty app, we must ensure location data is only tracked while the app is in use and that customer names are encrypted in the main sales database.
