@@ -66,13 +66,29 @@ When the shop owner asks for a report, a professional analyst asks:
 
 ## ⚖️ 2.8 What is Personal Data?
 Personal Data is any information that relates to an **identified or identifiable** living individual.
-* **In the Coffee Shop**: Customer names on loyalty accounts, email addresses for digital receipts, and CCTV footage.
-* **Non-Personal**: The price of a latte or the weight of a bean bag (**452.7g**) is not personal data.
+
+* **Direct Identifiers:** Name, email, or National Insurance number.
+* **Indirect Identifiers:** Information that could identify someone when combined with other data, such as an Avatar, IP address, or a combination of "Job Title + Postcode."
 
 ## 🛡️ 2.9 Purpose of the GDPR
 The **General Data Protection Regulation (GDPR)** and the **UK Data Protection Act 2018** exist to give individuals control over their personal data and to ensure organisations handle that data responsibly and transparently.
 
 ## 📜 2.10 Key GDPR Principles
-* **Lawfulness, Fairness, and Transparency**: We must have a legal reason to collect customer data and be honest about how we use it.
-* **Purpose Limitation**: Data collected for "Digital Receipts" cannot be used for "Marketing" without separate consent.
-* **Data Minimisation**: We only collect what is strictly necessary. We don't need a customer's date of birth just to sell them a coffee.
+* **Lawfulness, Fairness, and Transparency:** We must have a legal reason to collect customer data and be honest about how we use it.
+* **Purpose Limitation:** Data collected for "Digital Receipts" cannot be used for "Marketing" without separate consent.
+* **Data Minimisation:** We only collect what is strictly necessary. We don't need a customer's date of birth just to sell them a coffee.
+* **Accuracy:** All data must be kept correct and up to date.
+* **Storage Limitation:** Data shouldn't be kept any longer than is necessary for the specific case it's been collected for or legal obligations. For example, once a loyalty account is closed, the personal data should be deleted or anonymised.
+* **Integrity and Confidentiality:** Using encryption on the data when accessing, transfering, storing. Passwords and MFA should be used to protect databases from unauthorised access. Regular staff training on data protection and GDPR.
+* **Accountability:** Must be able to prove compliance through documentation and records of consent.
+
+## ⚖️ 2.11 Lawful Basis for Processing
+Before processing data, an organisation must identify a legal justification. 
+There are 6 bases:
+
+* **Consent:** The customer ticked a box to receive our newsletter.
+* **Contract:** We need their payment details to process their coffee order.
+* **Legal Obligation:** We must keep financial records for HMRC.
+* **Vital Interests:** Sharing medical info if a customer has a severe allergic reaction in the shop.
+* **Public Task:** Used by government bodies, public authorities and organisations performing public services, such as tracking diseases and processing voter registration.
+* **Legitimate Interests:** LIA must be conducted to show why it is necessary and prove balance of organisational and individual interests. Using CCTV for shop security, basic marketing and routine business activities.
