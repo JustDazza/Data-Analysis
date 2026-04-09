@@ -49,16 +49,24 @@ This section is updated as I complete each unit and assignment.
 * **Highlight:** Identified an 81% waste outlier and utilised **Median** averages to protect daily efficiency reporting.
 * 👉 [View Full Case Study](./lab-reports/Smart-Coffee-Shop-Analysis/)
 
-### 🏦 Project 2: Bank Marketing Analysis — Population Demographics
+### 🥤 Project 2: Regional Drinks Sales — Commercial Audit & Portfolio Optimization
+* **Topic:** End-to-end commercial analysis of a European beverage portfolio (61,458 units sold).
+* **Key Skills:** Data Standardisation (Array Formula Cleaning), Weighted Performance Benchmarking, and Project Lifecycle Management (Gantt).
+* **Highlight:** Identified Spain as the primary revenue engine (£18.5k) and engineered a strategy for the Cherry flavour line.
+* 👉 [View Full Case Study](./lab-reports/Drinks-Data-Analysis/)
+
+### 🏦 Project 3: Bank Marketing Analysis — Population Demographics
 * **Topic:** Analysing 45,211 records to identify conversion patterns for a term deposit campaign.
 * **Key Skills:** Descriptive Statistics, Outlier Identification, and Demographic Segmentation.
 * **Highlight:** Discovered an 11.7% conversion success rate and recommended target benchmarks based on mean customer balances.
 * 👉 [View Full Lab Report](./lab-reports/Bank-Marketing-Analysis/)
 
-### 📝 Project 3: Database Infrastructure & Schema Design
+### 📝 Project 4: Database Infrastructure & Schema Design
 * **Topic:** Building the relational environment for the NCFE laboratory.
 * **Key Skills:** SQL DDL (Table Creation), DML (Data Insertion), and Metadata Management.
 * 👉 [Master Lab Setup](./scripts/lab-setup.sql) | [Data Dictionary](./scripts/data-dictionary.sql)
+
+
 
 ---
 

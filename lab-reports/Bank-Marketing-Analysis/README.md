@@ -24,9 +24,26 @@ I applied various descriptive statistics to summarise the 45,211 records:
     * **Standard Deviation**: Employed to measure the variance in customer account balances (£3,044.73).
 
 ## 📊 4. Key Findings
-* **Subscription Success**: Out of 45,211 contacts, **5,289 (11.7%)** successfully subscribed to the term deposit.
-* **The "Balance" Effect**: Customers who subscribed had a higher mean balance (£1,804) compared to those who did not (£1,303).
-* **Target Demographics**: Management and retired individuals showed a higher propensity to subscribe compared to blue-collar workers.
+* **Subscription Success:** Out of 45,211 contacts, 5,289 (11.7%) successfully subscribed to the term deposit.
+* **The "Balance" Effect:** Customers who subscribed had a higher mean bank balance (£1,804) compared to those who did not (£1,303).
+* **Target Demographics:** Management and retired individuals showed a higher propensity to subscribe compared to blue-collar workers.
+
+### 📊 Identifying High-Net-Worth Demographics (The Conversion Heatmap)
+
+While basic conversion rates tell us *how many* customers subscribed, they don't tell us *who* brings the most capital into the bank. To solve this, I developed a **High-Net-Worth Conversion Heatmap**.
+
+This Pivot Table filters strictly for successful conversions (`y = yes`) and calculates the **Average Bank Balance** of those customers, cross-referencing their **Profession** with their **Marital Status**. 
+
+![High Net Worth Heatmap](./HeatMap.png) 
+
+**Key Configuration:**
+* **Data Segmentation:** Filtered to isolate positive outcomes.
+* **Weighted Analysis:** Sorted descending by the 'Grand Total' to account for population size, prioritizing overall demographic wealth over isolated spikes.
+* **Visual Encoding:** Applied a conditional formatting colour scale (Green-to-White) to draw immediate attention to the most lucrative micro-segments.
+
+**Strategic Insights:**
+1. **The Volume Target (Married Retirees):** The 'Grand Total' sorting reveals that 'Retired' customers are the most consistently lucrative demographic overall. This is heavily driven by married retirees, who maintain a strong average balance of nearly £3,000.
+2. **The Premium Niche (Divorced Self-Employed):** The heatmap instantly flags a hidden high-value segment. While 'Self-Employed' ranks second overall, 'Divorced Self-Employed' customers are the single wealthiest niche, bringing in nearly £6,000 on average.
 
 ## 💡 5. Strategic Recommendations
 * **Focus on High-Yield Segments**: Future marketing efforts should be prioritised toward customers with balances above the £1,362 mean.
