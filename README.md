@@ -61,12 +61,16 @@ This section is updated as I complete each unit and assignment.
 * **Highlight:** Discovered an 11.7% conversion success rate and recommended target benchmarks based on mean customer balances.
 * 👉 [View Full Lab Report](./lab-reports/Bank-Marketing-Analysis/)
 
-### 📝 Project 4: Database Infrastructure & Schema Design
+### 🚒 Project 4: LFB Incident Records — Operational Demand & Resource Strategy
+* **Topic:** High-volume analysis of emergency service demand using approximately 293,647 raw operational records.
+* **Key Skills:** Python Data Engineering (Pandas), Temporal Surge Modelling, Cross-Sectional "DNA" Analysis, and Strategic Operational Planning.
+* **Highlight:** Leveraged Python to clean nearly 300k records, identifying a critical 16:00–20:00 "High-Pressure Window" and defining station-level "Operational DNA" to drive precision fire prevention.
+* 👉 [View Full Case Study](./lab-reports/LFB-Data-Analysis/)
+
+### 📝 Project 5: Database Infrastructure & Schema Design
 * **Topic:** Building the relational environment for the NCFE laboratory.
 * **Key Skills:** SQL DDL (Table Creation), DML (Data Insertion), and Metadata Management.
 * 👉 [Master Lab Setup](./scripts/lab-setup.sql) | [Data Dictionary](./scripts/data-dictionary.sql)
-
-
 
 ---
 
